@@ -1,0 +1,1179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\willi\Documents\KiCAD\RealtaTrioAdvanced4\Trio.sch</source>
+    <date>30/01/2021 15:40:45</date>
+    <tool>Eeschema (5.1.8)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Trio.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="PO1">
+      <value>BJ</value>
+      <footprint>Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Barrel_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDB8D96</tstamp>
+    </comp>
+    <comp ref="F3">
+      <value>3A</value>
+      <footprint>Fuse:Fuse_1206_3216Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Shenzhen-lanson-Elec-12H1300C_C182445.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #"> C182445</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDC3466</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>3A</value>
+      <footprint>Fuse:Fuse_1206_3216Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Shenzhen-lanson-Elec-12H1300C_C182445.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #"> C182445</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDC57E5</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F3300T5E_C17630.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C17630</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE0223B</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F3300T5E_C17630.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C17630</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE04F03</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F3300T5E_C17630.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C17630</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE0438D</tstamp>
+    </comp>
+    <comp ref="F8">
+      <value>3A</value>
+      <footprint>Fuse:Fuse_1206_3216Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Shenzhen-lanson-Elec-12H1300C_C182445.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #"> C182445</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE36FA5</tstamp>
+    </comp>
+    <comp ref="DO1">
+      <value>RCJ-047</value>
+      <footprint>Trio:CUI_RCJ-047</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="RCJ-047" part="RCJ-047" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDB9229</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>C311622</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x7.7</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Lite-On-Semicon-VE-101M1CTR-0605_C134723.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C311622</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDBE7C4</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEE6B78</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF0686D</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF0CC9B</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF12FCC</tstamp>
+    </comp>
+    <comp ref="PO2">
+      <value>BJ</value>
+      <footprint>Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Barrel_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60129FEB</tstamp>
+    </comp>
+    <comp ref="F4">
+      <value>3A</value>
+      <footprint>Fuse:Fuse_1206_3216Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Shenzhen-lanson-Elec-12H1300C_C182445.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #"> C182445</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60129FF1</tstamp>
+    </comp>
+    <comp ref="PO3">
+      <value>BJ</value>
+      <footprint>Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Barrel_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60132E53</tstamp>
+    </comp>
+    <comp ref="F6">
+      <value>3A</value>
+      <footprint>Fuse:Fuse_1206_3216Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Shenzhen-lanson-Elec-12H1300C_C182445.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #"> C182445</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60132E59</tstamp>
+    </comp>
+    <comp ref="DO2">
+      <value>RCJ-047</value>
+      <footprint>Trio:CUI_RCJ-047</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="RCJ-047" part="RCJ-047" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602F0053</tstamp>
+    </comp>
+    <comp ref="DO3">
+      <value>RCJ-047</value>
+      <footprint>Trio:CUI_RCJ-047</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="RCJ-047" part="RCJ-047" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602FA583</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>RJ12</value>
+      <footprint>Connector_RJ:RJ12_Amphenol_54601</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="RJ12" description="RJ connector, 6P6C (6 positions 6 connected)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60167634</tstamp>
+    </comp>
+    <comp ref="NM3">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Alpha-Omega-Semicon-AOS-AO3400A_C20917.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C20917</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002K" description="0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602F004D</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F1002T5E_C17414.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C17414</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602F0059</tstamp>
+    </comp>
+    <comp ref="PI1">
+      <value>BJ</value>
+      <footprint>Trio:FC681495</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="WillsLib" part="FC681495" description="Socket; DC supply; male; 5,5/2,5mm; 5.5mm; 2.5mm; shielded; 10A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDB6FE7</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F1002T5E_C17414.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C17414</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6024937B</tstamp>
+    </comp>
+    <comp ref="NM2">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Alpha-Omega-Semicon-AOS-AO3400A_C20917.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C20917</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002K" description="0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDF015C</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F1002T5E_C17414.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C17414</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602FA589</tstamp>
+    </comp>
+    <comp ref="NM5">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Alpha-Omega-Semicon-AOS-AO3400A_C20917.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C20917</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002K" description="0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602FA57D</tstamp>
+    </comp>
+    <comp ref="PINOUT1">
+      <value>02X06</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x06_Odd_Even" description="Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60123A5E</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>TMC2208_SILENTSTEPSTICK</value>
+      <footprint>Trio:MODULE_TMC2208_SILENTSTEPSTICK</footprint>
+      <fields>
+        <field name="MANUFACTURER">Trinamic</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">N/A</field>
+        <field name="PARTREV">v11</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="WillsLib" part="TMC2208_SILENTSTEPSTICK" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6013547B</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F1002T5E_C17414.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C17513</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601571B9</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>USELECT</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6016327E</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>DSMALL</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part #">C8598</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky_Small" description="Schottky diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60206B39</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>AO3401A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C15127</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3401A" description="-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60317DF7</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>AO3401A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C15127</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3401A" description="-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6034A788</tstamp>
+    </comp>
+    <comp ref="A1">
+      <value>Nano</value>
+      <footprint>Module:Arduino_Nano</footprint>
+      <datasheet>https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf</datasheet>
+      <libsource lib="MCU_Module" part="Arduino_Nano_v2.x" description="Arduino Nano v2.x"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDB587C</tstamp>
+    </comp>
+    <comp ref="F7">
+      <value>3A</value>
+      <footprint>Fuse:Fuse_1206_3216Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Shenzhen-lanson-Elec-12H1300C_C182445.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #"> C182445</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE4682B</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>AO3401A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C15127</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3401A" description="-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6049970B</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>AO3401A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C15127</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3401A" description="-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60501A36</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>AO3401A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C15127</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3401A" description="-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60504A46</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>AO3401A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C15127</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3401A" description="-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60505B44</tstamp>
+    </comp>
+    <comp ref="F2">
+      <value>3A</value>
+      <footprint>Fuse:Fuse_1206_3216Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Shenzhen-lanson-Elec-12H1300C_C182445.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #"> C182445</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6054E89A</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>AO3401A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C15127</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3401A" description="-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6054E8A6</tstamp>
+    </comp>
+    <comp ref="F5">
+      <value>3A</value>
+      <footprint>Fuse:Fuse_1206_3216Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Shenzhen-lanson-Elec-12H1300C_C182445.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #"> C182445</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60552598</tstamp>
+    </comp>
+    <comp ref="Q8">
+      <value>AO3401A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C15127</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3401A" description="-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605525A4</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="6P6C">
+      <aliases>
+        <alias>RJ12</alias>
+        <alias>RJ18</alias>
+        <alias>RJ25</alias>
+      </aliases>
+      <description>RJ connector, 6P6C (6 positions 6 connected), RJ12/RJ18/RJ25</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>6P6C*</fp>
+        <fp>RJ12*</fp>
+        <fp>RJ18*</fp>
+        <fp>RJ25*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">6P6C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Barrel_Jack_Switch">
+      <description>DC Barrel Jack with an internal switch</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack_Switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x03_Odd_Even">
+      <description>Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x06_Odd_Even">
+      <description>Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x06_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky_Small">
+      <description>Schottky diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Module" part="Arduino_Nano_v2.x">
+      <aliases>
+        <alias>Arduino_Nano_v3.x</alias>
+      </aliases>
+      <description>Arduino Nano v2.x</description>
+      <docs>https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf</docs>
+      <footprints>
+        <fp>Arduino*Nano*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">Arduino_Nano_v2.x</field>
+        <field name="Footprint">Module:Arduino_Nano</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D1/TX" type="BiDi"/>
+        <pin num="2" name="D0/RX" type="BiDi"/>
+        <pin num="3" name="~RESET" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="D2" type="BiDi"/>
+        <pin num="6" name="D3" type="BiDi"/>
+        <pin num="7" name="D4" type="BiDi"/>
+        <pin num="8" name="D5" type="BiDi"/>
+        <pin num="9" name="D6" type="BiDi"/>
+        <pin num="10" name="D7" type="BiDi"/>
+        <pin num="11" name="D8" type="BiDi"/>
+        <pin num="12" name="D9" type="BiDi"/>
+        <pin num="13" name="D10" type="BiDi"/>
+        <pin num="14" name="D11" type="BiDi"/>
+        <pin num="15" name="D12" type="BiDi"/>
+        <pin num="16" name="D13" type="BiDi"/>
+        <pin num="17" name="3V3" type="power_out"/>
+        <pin num="18" name="AREF" type="input"/>
+        <pin num="19" name="A0" type="BiDi"/>
+        <pin num="20" name="A1" type="BiDi"/>
+        <pin num="21" name="A2" type="BiDi"/>
+        <pin num="22" name="A3" type="BiDi"/>
+        <pin num="23" name="A4" type="BiDi"/>
+        <pin num="24" name="A5" type="BiDi"/>
+        <pin num="25" name="A6" type="BiDi"/>
+        <pin num="26" name="A7" type="BiDi"/>
+        <pin num="27" name="+5V" type="power_out"/>
+        <pin num="28" name="~RESET" type="input"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="RCJ-047" part="RCJ-047">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">RCJ-047</field>
+        <field name="Footprint">CUI_RCJ-047</field>
+        <field name="MP">RCJ-047</field>
+        <field name="CUI_PURCHASE_URL">https://www.cuidevices.com/product/interconnect/connectors/rca-connectors/rcj-04-series?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM</field>
+        <field name="PRICE">None</field>
+        <field name="PACKAGE">None</field>
+        <field name="MF">CUI Devices</field>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="DESCRIPTION">Metal Right-Angle, RCA Jack, Orange Housing and Insulation</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BSS138">
+      <aliases>
+        <alias>2N7002</alias>
+        <alias>2N7002E</alias>
+        <alias>2N7002H</alias>
+        <alias>2N7002K</alias>
+        <alias>BS170F</alias>
+        <alias>BS870</alias>
+        <alias>BSN20</alias>
+        <alias>BSS123</alias>
+        <alias>BSS127S</alias>
+        <alias>DMG2302U</alias>
+        <alias>DMG3402L</alias>
+        <alias>DMG3404L</alias>
+        <alias>DMG3406L</alias>
+        <alias>DMG3414U</alias>
+        <alias>DMG3418L</alias>
+        <alias>DMN10H220L</alias>
+        <alias>DMN10H700S</alias>
+        <alias>DMN13H750S</alias>
+        <alias>DMN2041L</alias>
+        <alias>DMN2050L</alias>
+        <alias>DMN2056U</alias>
+        <alias>DMN2058U</alias>
+        <alias>DMN2075U</alias>
+        <alias>DMN2230U</alias>
+        <alias>DMN24H11DS</alias>
+        <alias>DMN24H3D5L</alias>
+        <alias>DMN3042L</alias>
+        <alias>DMN3051L</alias>
+        <alias>DMN30H4D0L</alias>
+        <alias>DMN3110S</alias>
+        <alias>DMN3150L</alias>
+        <alias>DMN3300U</alias>
+        <alias>DMN3404L</alias>
+        <alias>DMN6075S</alias>
+        <alias>DMN6140L</alias>
+        <alias>DMN67D7L</alias>
+        <alias>DMN67D8L</alias>
+        <alias>MMBF170</alias>
+        <alias>VN10LF</alias>
+        <alias>ZVN3306F</alias>
+        <alias>ZVN3310F</alias>
+        <alias>ZVN3320F</alias>
+        <alias>ZVN4106F</alias>
+        <alias>ZXM61N02F</alias>
+        <alias>ZXM61N03F</alias>
+        <alias>ZXMN10A07F</alias>
+        <alias>ZXMN2A01F</alias>
+        <alias>ZXMN2A14F</alias>
+        <alias>ZXMN2B01F</alias>
+        <alias>ZXMN2B14FH</alias>
+        <alias>ZXMN2F30FH</alias>
+        <alias>ZXMN2F34FH</alias>
+        <alias>ZXMN3A01F</alias>
+        <alias>ZXMN3A14F</alias>
+        <alias>ZXMN3B01F</alias>
+        <alias>ZXMN3B14F</alias>
+        <alias>ZXMN3F30FH</alias>
+        <alias>ZXMN6A07F</alias>
+        <alias>IRLML0030</alias>
+        <alias>IRLML2060</alias>
+        <alias>TSM2302CX</alias>
+        <alias>AO3400A</alias>
+      </aliases>
+      <description>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="TP0610T">
+      <aliases>
+        <alias>VP0610T</alias>
+        <alias>BSS84</alias>
+        <alias>NTR2101P</alias>
+        <alias>BSS83P</alias>
+        <alias>Si2319CDS</alias>
+        <alias>IRLML6401</alias>
+        <alias>IRLML6402</alias>
+        <alias>DMG2301L</alias>
+        <alias>AO3401A</alias>
+        <alias>IRLML9301</alias>
+        <alias>IRLML5203</alias>
+        <alias>Si2371EDS</alias>
+        <alias>TSM2301ACX</alias>
+        <alias>FDN340P</alias>
+      </aliases>
+      <description>-0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23</description>
+      <docs>http://www.vishay.com/docs/70209/70209.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">TP0610T</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="WillsLib" part="FC681495">
+      <description>Socket; DC supply; male; 5,5/2,5mm; 5.5mm; 2.5mm; shielded; 10A</description>
+      <docs>http://www.farnell.com/cad/1732978.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">FC681495</field>
+        <field name="Footprint">FC681495</field>
+        <field name="Datasheet">http://www.farnell.com/cad/1732978.pdf</field>
+        <field name="Description">Socket; DC supply; male; 5,5/2,5mm; 5.5mm; 2.5mm; shielded; 10A</field>
+        <field name="Height">13.9</field>
+        <field name="Manufacturer_Name">CLIFF ELECTRONIC COMPONENTS</field>
+        <field name="Manufacturer_Part_Number">FC681495</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="MH1" name="MH1" type="passive"/>
+        <pin num="MH2" name="MH2" type="passive"/>
+        <pin num="MH3" name="MH3" type="passive"/>
+        <pin num="MH4" name="MH4" type="passive"/>
+        <pin num="MH5" name="MH5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="WillsLib" part="TMC2208_SILENTSTEPSTICK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TMC2208_SILENTSTEPSTICK</field>
+        <field name="Footprint">MODULE_TMC2208_SILENTSTEPSTICK</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">N/A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">v11</field>
+        <field name="MANUFACTURER">Trinamic</field>
+      </fields>
+      <pins>
+        <pin num="JP1_1" name="DIR" type="input"/>
+        <pin num="JP1_2" name="STEP" type="input"/>
+        <pin num="JP1_3" name="CLK" type="input"/>
+        <pin num="JP1_4" name="PDN/UART1" type="BiDi"/>
+        <pin num="JP1_5" name="PDN/UART2" type="BiDi"/>
+        <pin num="JP1_6" name="MS2" type="input"/>
+        <pin num="JP1_7" name="MS1" type="input"/>
+        <pin num="JP1_8" name="EN" type="input"/>
+        <pin num="JP2_1" name="VM" type="power_in"/>
+        <pin num="JP2_2" name="GND" type="power_in"/>
+        <pin num="JP2_3" name="OA2" type="passive"/>
+        <pin num="JP2_4" name="OA1" type="passive"/>
+        <pin num="JP2_5" name="OB1" type="passive"/>
+        <pin num="JP2_6" name="OB2" type="passive"/>
+        <pin num="JP2_7" name="VIO" type="power_in"/>
+        <pin num="JP2_8" name="GND" type="power_in"/>
+        <pin num="JP3_1" name="INDEX" type="output"/>
+        <pin num="JP4_1" name="DIAG" type="output"/>
+        <pin num="JP5_1" name="VREF" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="MCU_Module">
+      <uri>C:\Program Files\KiCad\share\kicad\library/MCU_Module.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+    <library logical="RCJ-047">
+      <uri>E:/KiCAD Extra/RCJ-047/RCJ-047.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Transistor_FET.lib</uri>
+    </library>
+    <library logical="WillsLib">
+      <uri>E:/KiCAD Extra/WillsLib/WillsLib.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="M2">
+      <node ref="A1" pin="6"/>
+      <node ref="U1" pin="JP1_5"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="2" name="D12">
+      <node ref="PINOUT1" pin="12"/>
+      <node ref="A1" pin="15"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="3" name="SLP">
+      <node ref="U1" pin="JP1_3"/>
+      <node ref="J2" pin="6"/>
+      <node ref="A1" pin="10"/>
+    </net>
+    <net code="4" name="Net-(J2-Pad1)">
+      <node ref="R7" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="J2" pin="5"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="5" name="RST">
+      <node ref="A1" pin="5"/>
+      <node ref="U1" pin="JP1_4"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="6" name="GND">
+      <node ref="Q7" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="NM2" pin="2"/>
+      <node ref="Q5" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="PO2" pin="2"/>
+      <node ref="PO1" pin="3"/>
+      <node ref="U1" pin="JP2_2"/>
+      <node ref="PO1" pin="2"/>
+      <node ref="A1" pin="29"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="Q6" pin="1"/>
+      <node ref="A1" pin="4"/>
+      <node ref="Q4" pin="1"/>
+      <node ref="Q8" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="NM3" pin="2"/>
+      <node ref="PI1" pin="2"/>
+      <node ref="PINOUT1" pin="11"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="PO2" pin="3"/>
+      <node ref="NM5" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="PO3" pin="2"/>
+      <node ref="PO3" pin="3"/>
+      <node ref="U1" pin="JP2_8"/>
+    </net>
+    <net code="7" name="Net-(A1-Pad30)">
+      <node ref="Q2" pin="2"/>
+      <node ref="A1" pin="30"/>
+    </net>
+    <net code="8" name="+3V3">
+      <node ref="A1" pin="17"/>
+      <node ref="PINOUT1" pin="8"/>
+    </net>
+    <net code="9" name="+5V">
+      <node ref="PINOUT1" pin="9"/>
+      <node ref="A1" pin="27"/>
+      <node ref="U1" pin="JP2_7"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="10" name="Net-(F8-Pad1)">
+      <node ref="Q1" pin="3"/>
+      <node ref="F8" pin="1"/>
+    </net>
+    <net code="11" name="Net-(U1-PadJP3_1)">
+      <node ref="U1" pin="JP3_1"/>
+    </net>
+    <net code="12" name="Net-(C1-Pad1)">
+      <node ref="Q1" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="JP2_1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="13" name="A3">
+      <node ref="PINOUT1" pin="1"/>
+      <node ref="U1" pin="JP5_1"/>
+      <node ref="A1" pin="22"/>
+    </net>
+    <net code="14" name="A6">
+      <node ref="PINOUT1" pin="7"/>
+      <node ref="U1" pin="JP4_1"/>
+      <node ref="A1" pin="25"/>
+    </net>
+    <net code="15" name="B2">
+      <node ref="J1" pin="1"/>
+      <node ref="U1" pin="JP2_6"/>
+    </net>
+    <net code="16" name="B1">
+      <node ref="J1" pin="2"/>
+      <node ref="U1" pin="JP2_5"/>
+    </net>
+    <net code="17" name="MA1">
+      <node ref="J1" pin="5"/>
+      <node ref="U1" pin="JP2_4"/>
+    </net>
+    <net code="18" name="MA2">
+      <node ref="U1" pin="JP2_3"/>
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="19" name="Net-(F1-Pad1)">
+      <node ref="Q3" pin="2"/>
+      <node ref="F1" pin="1"/>
+    </net>
+    <net code="20" name="Net-(F6-Pad2)">
+      <node ref="Q7" pin="2"/>
+      <node ref="F6" pin="2"/>
+    </net>
+    <net code="21" name="Net-(F4-Pad2)">
+      <node ref="Q5" pin="2"/>
+      <node ref="F4" pin="2"/>
+    </net>
+    <net code="22" name="Net-(F3-Pad2)">
+      <node ref="Q4" pin="2"/>
+      <node ref="F3" pin="2"/>
+    </net>
+    <net code="23" name="Net-(DO1-Pad2)">
+      <node ref="DO1" pin="2"/>
+      <node ref="F1" pin="2"/>
+    </net>
+    <net code="24" name="Net-(DO2-Pad2)">
+      <node ref="F5" pin="2"/>
+      <node ref="DO2" pin="2"/>
+    </net>
+    <net code="25" name="Net-(F5-Pad1)">
+      <node ref="F5" pin="1"/>
+      <node ref="Q8" pin="2"/>
+    </net>
+    <net code="26" name="+12V">
+      <node ref="F8" pin="2"/>
+      <node ref="Q8" pin="3"/>
+      <node ref="F7" pin="1"/>
+      <node ref="PI1" pin="1"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="Q6" pin="3"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="Q5" pin="3"/>
+      <node ref="Q7" pin="3"/>
+    </net>
+    <net code="27" name="Net-(DO3-Pad2)">
+      <node ref="F2" pin="2"/>
+      <node ref="DO3" pin="2"/>
+    </net>
+    <net code="28" name="Net-(F2-Pad1)">
+      <node ref="Q6" pin="2"/>
+      <node ref="F2" pin="1"/>
+    </net>
+    <net code="29" name="Net-(A1-Pad28)">
+      <node ref="A1" pin="28"/>
+    </net>
+    <net code="30" name="DIR">
+      <node ref="U1" pin="JP1_1"/>
+      <node ref="A1" pin="26"/>
+    </net>
+    <net code="31" name="SDA">
+      <node ref="PINOUT1" pin="3"/>
+      <node ref="A1" pin="23"/>
+    </net>
+    <net code="32" name="Net-(A1-Pad2)">
+      <node ref="A1" pin="2"/>
+    </net>
+    <net code="33" name="Net-(A1-Pad18)">
+      <node ref="A1" pin="18"/>
+    </net>
+    <net code="34" name="Net-(A1-Pad12)">
+      <node ref="R4" pin="2"/>
+      <node ref="A1" pin="12"/>
+    </net>
+    <net code="35" name="STEP">
+      <node ref="A1" pin="11"/>
+      <node ref="U1" pin="JP1_2"/>
+    </net>
+    <net code="36" name="Net-(A1-Pad1)">
+      <node ref="A1" pin="1"/>
+    </net>
+    <net code="37" name="Net-(F7-Pad2)">
+      <node ref="Q2" pin="3"/>
+      <node ref="F7" pin="2"/>
+    </net>
+    <net code="38" name="EN">
+      <node ref="A1" pin="9"/>
+      <node ref="U1" pin="JP1_8"/>
+    </net>
+    <net code="39" name="M0">
+      <node ref="U1" pin="JP1_7"/>
+      <node ref="A1" pin="8"/>
+    </net>
+    <net code="40" name="M1">
+      <node ref="U1" pin="JP1_6"/>
+      <node ref="A1" pin="7"/>
+    </net>
+    <net code="41" name="Net-(A1-Pad3)">
+      <node ref="A1" pin="3"/>
+    </net>
+    <net code="42" name="Net-(DO2-Pad1)">
+      <node ref="NM3" pin="3"/>
+      <node ref="DO2" pin="1"/>
+    </net>
+    <net code="43" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="44" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="45" name="Net-(A1-Pad14)">
+      <node ref="A1" pin="14"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="46" name="Net-(A1-Pad13)">
+      <node ref="A1" pin="13"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="47" name="LOGIC1">
+      <node ref="R1" pin="2"/>
+      <node ref="NM2" pin="1"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="48" name="Net-(PI1-PadMH5)">
+      <node ref="PI1" pin="MH5"/>
+    </net>
+    <net code="49" name="Net-(PI1-PadMH4)">
+      <node ref="PI1" pin="MH4"/>
+    </net>
+    <net code="50" name="Net-(PI1-PadMH3)">
+      <node ref="PI1" pin="MH3"/>
+    </net>
+    <net code="51" name="Net-(PI1-PadMH2)">
+      <node ref="PI1" pin="MH2"/>
+    </net>
+    <net code="52" name="Net-(PI1-PadMH1)">
+      <node ref="PI1" pin="MH1"/>
+    </net>
+    <net code="53" name="Net-(F4-Pad1)">
+      <node ref="F4" pin="1"/>
+      <node ref="PO2" pin="1"/>
+    </net>
+    <net code="54" name="Net-(DO1-Pad1)">
+      <node ref="NM2" pin="3"/>
+      <node ref="DO1" pin="1"/>
+    </net>
+    <net code="55" name="LOGIC2">
+      <node ref="NM5" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="56" name="LOGIC3">
+      <node ref="R6" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="NM3" pin="1"/>
+    </net>
+    <net code="57" name="Net-(F3-Pad1)">
+      <node ref="F3" pin="1"/>
+      <node ref="PO1" pin="1"/>
+    </net>
+    <net code="58" name="Net-(DO3-Pad1)">
+      <node ref="DO3" pin="1"/>
+      <node ref="NM5" pin="3"/>
+    </net>
+    <net code="59" name="Net-(F6-Pad1)">
+      <node ref="F6" pin="1"/>
+      <node ref="PO3" pin="1"/>
+    </net>
+    <net code="61" name="A0">
+      <node ref="PINOUT1" pin="6"/>
+      <node ref="A1" pin="19"/>
+    </net>
+    <net code="62" name="SCL">
+      <node ref="A1" pin="24"/>
+      <node ref="PINOUT1" pin="5"/>
+    </net>
+    <net code="63" name="A1">
+      <node ref="A1" pin="20"/>
+      <node ref="PINOUT1" pin="4"/>
+    </net>
+    <net code="64" name="A2">
+      <node ref="PINOUT1" pin="2"/>
+      <node ref="A1" pin="21"/>
+    </net>
+    <net code="65" name="D13">
+      <node ref="A1" pin="16"/>
+      <node ref="PINOUT1" pin="10"/>
+    </net>
+  </nets>
+</export>
