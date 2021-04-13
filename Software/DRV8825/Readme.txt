@@ -1,1 +1,2 @@
-Lol Wut?
+# Trio
+Realta Scope Tech: Trio Focuser
