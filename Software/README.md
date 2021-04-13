@@ -1,3 +1,2 @@
-#Software
-
-Please do somefink!
+# Software
+Realta Scope Tech: Trio Focuser
