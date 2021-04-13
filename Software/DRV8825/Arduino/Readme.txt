@@ -4,4 +4,4 @@ At this time only the Arduino Nano and it's clones are supported.
 
 Please note your Nano may need drivers installed so Windows can opperate it's USB to serial port hardware.
 
-A common serial chip used on Nano clones is the CH340 and drivers for this can be found in /Software/Windows/CH340
+A common serial chip used on Nano clones is the CH340 and drivers for this can be found in Trio/Software/Windows Drivers/
