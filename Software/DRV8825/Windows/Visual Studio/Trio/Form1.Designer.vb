@@ -50,8 +50,6 @@ Partial Class Form1
         Me.LabelCurrentFocuserPosition = New System.Windows.Forms.Label()
         Me.bttnSettings = New System.Windows.Forms.Button()
         Me.bttnDisconnect = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.txtTest = New System.Windows.Forms.TextBox()
         Me.ComboCOMPorts = New System.Windows.Forms.ComboBox()
         Me.TemperatureLabel = New System.Windows.Forms.Label()
         Me.panelControl.SuspendLayout()
@@ -403,22 +401,6 @@ Partial Class Form1
         Me.bttnDisconnect.UseVisualStyleBackColor = False
         Me.bttnDisconnect.Visible = False
         '
-        'Button2
-        '
-        Me.Button2.Location = New System.Drawing.Point(279, 619)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(83, 62)
-        Me.Button2.TabIndex = 37
-        Me.Button2.Text = "TestMe"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
-        'txtTest
-        '
-        Me.txtTest.Location = New System.Drawing.Point(29, 619)
-        Me.txtTest.Name = "txtTest"
-        Me.txtTest.Size = New System.Drawing.Size(226, 22)
-        Me.txtTest.TabIndex = 38
-        '
         'ComboCOMPorts
         '
         Me.ComboCOMPorts.FormattingEnabled = True
@@ -430,10 +412,11 @@ Partial Class Form1
         'TemperatureLabel
         '
         Me.TemperatureLabel.AutoSize = True
+        Me.TemperatureLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TemperatureLabel.ForeColor = System.Drawing.Color.White
-        Me.TemperatureLabel.Location = New System.Drawing.Point(27, 654)
+        Me.TemperatureLabel.Location = New System.Drawing.Point(36, 635)
         Me.TemperatureLabel.Name = "TemperatureLabel"
-        Me.TemperatureLabel.Size = New System.Drawing.Size(211, 17)
+        Me.TemperatureLabel.Size = New System.Drawing.Size(277, 24)
         Me.TemperatureLabel.TabIndex = 40
         Me.TemperatureLabel.Text = "Temperature 40c: Humidity 40%"
         '
@@ -445,8 +428,6 @@ Partial Class Form1
         Me.ClientSize = New System.Drawing.Size(462, 693)
         Me.Controls.Add(Me.TemperatureLabel)
         Me.Controls.Add(Me.ComboCOMPorts)
-        Me.Controls.Add(Me.txtTest)
-        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.bttnSettings)
         Me.Controls.Add(Me.panelControl)
         Me.Controls.Add(Me.bttnConnect)
@@ -493,8 +474,6 @@ Partial Class Form1
     Friend WithEvents bttnDisconnect As Button
     Protected WithEvents ProgressFocuserMove As ProgressBar
     Friend WithEvents bttnHalt As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents txtTest As TextBox
     Friend WithEvents ComboCOMPorts As ComboBox
     Friend WithEvents TemperatureLabel As Label
 End Class

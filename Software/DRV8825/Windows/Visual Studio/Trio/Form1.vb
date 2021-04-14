@@ -367,17 +367,21 @@
     End Sub
 
     Private Sub bttnSaveMove_Click(sender As Object, e As EventArgs) Handles bttnSaveMove.Click
-        vSavePosition = Convert.ToInt32(lblFocuserCurrentPosition.Text)
-        MsgBox(vSavePosition)
+        My.Settings.setSavePosition = Convert.ToInt32(lblFocuserCurrentPosition.Text)
+        MsgBox("Position saved")
     End Sub
 
     Private Sub bttnMoveSaved_Click(sender As Object, e As EventArgs) Handles bttnMoveSaved.Click
         Dim vCurrent As Integer = Convert.ToInt32(lblFocuserCurrentPosition.Text)
-        Dim vStepsToMove As Integer = vSavePosition - vCurrent
-        MyCommandProcessing.FocuserMove(vStepsToMove, MySerialStuff, MyFocuserData)
-        animateFocuserMoveProgress(Math.Abs(vStepsToMove))
-        MyCommandProcessing.UpdateFocuserStatus(MySerialStuff.ReceiveText, MyFocuserData)
-        SubUpdateFocuserStatus()
+        Dim vStepsToMove As Integer = My.Settings.setSavePosition - vCurrent
+
+        If vStepsToMove <> 0 Then
+            MyCommandProcessing.FocuserMove(vStepsToMove, MySerialStuff, MyFocuserData)
+            animateFocuserMoveProgress(Math.Abs(vStepsToMove))
+            MyCommandProcessing.UpdateFocuserStatus(MySerialStuff.ReceiveText, MyFocuserData)
+            SubUpdateFocuserStatus()
+        End If
+
     End Sub
 
     Private Sub bttnMoveHome_Click(sender As Object, e As EventArgs) Handles bttnMoveHome.Click
@@ -402,8 +406,5 @@
         MyCommandProcessing.Halt(MySerialStuff, MyFocuserData)
     End Sub
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        vMyNetworkServer.testButton(txtTest.Text)
-    End Sub
 
 End Class

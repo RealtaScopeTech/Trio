@@ -89,6 +89,18 @@ Namespace My
                 Me("SetLargeStep") = value
             End Set
         End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("5000")>  _
+        Public Property setSavePosition() As Integer
+            Get
+                Return CType(Me("setSavePosition"),Integer)
+            End Get
+            Set
+                Me("setSavePosition") = value
+            End Set
+        End Property
     End Class
 End Namespace
 
