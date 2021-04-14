@@ -21,6 +21,7 @@
     Public Function CheckTemperature(ByRef vSerialCon As SerialStuff) As String
 
         Dim vTemp As String
+        Dim vHumid As Double
         Dim vReturn As String
 
         vSerialCon.SendSerialText("GET_TEMP")
@@ -32,7 +33,9 @@
 
         Form1.vTemp = vParams(0)
 
-        vReturn = "Temperature: " + vParams(0) + "c, Humidity " + vParams(1) + "%"
+        vHumid = vParams(1)
+
+        vReturn = "Temperature: " + Math.Round(Form1.vTemp).ToString() + "c, Humidity " + Math.Round(vHumid).ToString() + "%"
 
         Return vReturn
 

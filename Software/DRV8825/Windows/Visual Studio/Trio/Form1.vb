@@ -406,5 +406,4 @@
         MyCommandProcessing.Halt(MySerialStuff, MyFocuserData)
     End Sub
 
-
 End Class

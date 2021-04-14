@@ -416,9 +416,9 @@ Partial Class Form1
         Me.TemperatureLabel.ForeColor = System.Drawing.Color.White
         Me.TemperatureLabel.Location = New System.Drawing.Point(36, 635)
         Me.TemperatureLabel.Name = "TemperatureLabel"
-        Me.TemperatureLabel.Size = New System.Drawing.Size(277, 24)
+        Me.TemperatureLabel.Size = New System.Drawing.Size(134, 24)
         Me.TemperatureLabel.TabIndex = 40
-        Me.TemperatureLabel.Text = "Temperature 40c: Humidity 40%"
+        Me.TemperatureLabel.Text = "Not connected"
         '
         'Form1
         '
