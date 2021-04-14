@@ -51,10 +51,11 @@
     End Sub
 
     Private Sub bttnSaveStepbttns_Click(sender As Object, e As EventArgs) Handles bttnSaveStepbttns.Click
-        Form1.MyFocuserData.vSmallSteps = NumericSmall.Value
-        Form1.MyFocuserData.vMediumSteps = NumericMedium.Value
-        Form1.MyFocuserData.vLargeSteps = NumericLarge.Value
+        My.Settings.SetSmallStep = NumericSmall.Value
+        My.Settings.SetMediumStep = NumericMedium.Value
+        My.Settings.SetLargeStep = NumericLarge.Value
 
+        MsgBox("Settings saved")
         Close()
     End Sub
 
@@ -90,6 +91,8 @@
 
             Form1.MyCommandProcessing.SetFocuserData(Form1.MySerialStuff, Form1.MyFocuserData)
             Form1.SubUpdateFocuserStatus()
+
+            MsgBox("Settings saved")
 
             Close()
 

@@ -10,3 +10,4 @@ C:\Users\willi\source\repos\Trio\obj\Debug\Trio.exe
 C:\Users\willi\source\repos\Trio\obj\Debug\Trio.xml
 C:\Users\willi\source\repos\Trio\obj\Debug\Trio.pdb
 C:\Users\willi\source\repos\Trio\obj\Debug\Trio.SettingsForm.resources
+C:\Users\willi\source\repos\Trio\bin\Debug\Trio.exe.config

@@ -211,8 +211,8 @@
 
     Private Sub bttnMoveOutSmall_Click(sender As Object, e As EventArgs) Handles bttnMoveOutSmall.Click
         If MyFocuserData.V_CURRENT_POSITION < MyFocuserData.V_MAX_STEPS Then
-            MyCommandProcessing.FocuserMove(MyFocuserData.vSmallSteps, MySerialStuff, MyFocuserData)
-            animateFocuserMoveProgress(MyFocuserData.vSmallSteps)
+            MyCommandProcessing.FocuserMove(My.Settings.SetSmallStep, MySerialStuff, MyFocuserData)
+            animateFocuserMoveProgress(My.Settings.SetSmallStep)
             MyCommandProcessing.UpdateFocuserStatus(MySerialStuff.ReceiveText, MyFocuserData)
             SubUpdateFocuserStatus()
         End If
@@ -220,8 +220,8 @@
 
     Private Sub bttnMoveOutMedium_Click(sender As Object, e As EventArgs) Handles bttnMoveOutMedium.Click
         If MyFocuserData.V_CURRENT_POSITION < MyFocuserData.V_MAX_STEPS Then
-            MyCommandProcessing.FocuserMove(MyFocuserData.vMediumSteps, MySerialStuff, MyFocuserData)
-            animateFocuserMoveProgress(MyFocuserData.vMediumSteps)
+            MyCommandProcessing.FocuserMove(My.Settings.SetMediumStep, MySerialStuff, MyFocuserData)
+            animateFocuserMoveProgress(My.Settings.SetMediumStep)
             MyCommandProcessing.UpdateFocuserStatus(MySerialStuff.ReceiveText, MyFocuserData)
             SubUpdateFocuserStatus()
         End If
@@ -229,8 +229,8 @@
 
     Private Sub bttnMoveOutLarge_Click(sender As Object, e As EventArgs) Handles bttnMoveOutLarge.Click
         If MyFocuserData.V_CURRENT_POSITION < MyFocuserData.V_MAX_STEPS Then
-            MyCommandProcessing.FocuserMove(MyFocuserData.vLargeSteps, MySerialStuff, MyFocuserData)
-            animateFocuserMoveProgress(MyFocuserData.vLargeSteps)
+            MyCommandProcessing.FocuserMove(My.Settings.SetLargeStep, MySerialStuff, MyFocuserData)
+            animateFocuserMoveProgress(My.Settings.SetLargeStep)
             MyCommandProcessing.UpdateFocuserStatus(MySerialStuff.ReceiveText, MyFocuserData)
             SubUpdateFocuserStatus()
         End If
@@ -239,8 +239,8 @@
 
     Private Sub bttnMoveInSmall_Click(sender As Object, e As EventArgs) Handles bttnMoveInSmall.Click
         If MyFocuserData.V_CURRENT_POSITION > 0 Then
-            MyCommandProcessing.FocuserMove(MyFocuserData.vSmallSteps * -1, MySerialStuff, MyFocuserData)
-            animateFocuserMoveProgress(MyFocuserData.vSmallSteps)
+            MyCommandProcessing.FocuserMove(My.Settings.SetSmallStep * -1, MySerialStuff, MyFocuserData)
+            animateFocuserMoveProgress(My.Settings.SetSmallStep)
             MyCommandProcessing.UpdateFocuserStatus(MySerialStuff.ReceiveText, MyFocuserData)
             SubUpdateFocuserStatus()
         End If
@@ -249,8 +249,8 @@
 
     Private Sub bttnMoveInMedium_Click(sender As Object, e As EventArgs) Handles bttnMoveInMedium.Click
         If MyFocuserData.V_CURRENT_POSITION > 0 Then
-            MyCommandProcessing.FocuserMove(MyFocuserData.vMediumSteps * -1, MySerialStuff, MyFocuserData)
-            animateFocuserMoveProgress(MyFocuserData.vMediumSteps)
+            MyCommandProcessing.FocuserMove(My.Settings.SetMediumStep * -1, MySerialStuff, MyFocuserData)
+            animateFocuserMoveProgress(My.Settings.SetMediumStep)
             MyCommandProcessing.UpdateFocuserStatus(MySerialStuff.ReceiveText, MyFocuserData)
             SubUpdateFocuserStatus()
         End If
@@ -258,8 +258,8 @@
 
     Private Sub bttnMoveInLarge_Click(sender As Object, e As EventArgs) Handles bttnMoveInLarge.Click
         If MyFocuserData.V_CURRENT_POSITION > 0 Then
-            MyCommandProcessing.FocuserMove(MyFocuserData.vLargeSteps * -1, MySerialStuff, MyFocuserData)
-            animateFocuserMoveProgress(MyFocuserData.vLargeSteps)
+            MyCommandProcessing.FocuserMove(My.Settings.SetLargeStep * -1, MySerialStuff, MyFocuserData)
+            animateFocuserMoveProgress(My.Settings.SetLargeStep)
             MyCommandProcessing.UpdateFocuserStatus(MySerialStuff.ReceiveText, MyFocuserData)
             SubUpdateFocuserStatus()
         End If
@@ -341,9 +341,9 @@
 
         mySettingsForm.TrackFocuserSpeed.Value = MyFocuserData.V_STEPPER_SPEED
 
-        mySettingsForm.NumericSmall.Value = MyFocuserData.vSmallSteps
-        mySettingsForm.NumericMedium.Value = MyFocuserData.vMediumSteps
-        mySettingsForm.NumericLarge.Value = MyFocuserData.vLargeSteps
+        mySettingsForm.NumericSmall.Value = My.Settings.SetSmallStep
+        mySettingsForm.NumericMedium.Value = My.Settings.SetMediumStep
+        mySettingsForm.NumericLarge.Value = My.Settings.SetLargeStep
 
         mySettingsForm.NumericCurrentPosition.Maximum = mySettingsForm.NumericMaxSteps.Value
 
