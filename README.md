@@ -13,4 +13,4 @@ I also wanted to design something that fitted in a neat case as other maker opti
 
 # License
 
-Please feel free to make your own copies of the board and ammend the design. Please give credit.
+Please feel free to make your own copies of the board/cases and ammend their design. Please give credit.
