@@ -48,9 +48,9 @@ bool V_IS_MOVING;
 
 //holds focuser status
 struct FOCUSER_STATUS {
-  int  V_CURRENT_POSITION;
+  long V_CURRENT_POSITION;
   byte V_STEP_MODE;
-  int  V_MAX_STEPS;
+  long V_MAX_STEPS;
   byte V_POWER_HOLD;
   byte V_DIRECTTION;
   byte V_STEPPER_SPEED;
@@ -86,10 +86,10 @@ bool   V_PARAM_ERROR;
 String V_PARAM_ERROR_TEXT;
 
 String V_CHAR_STEPS_TO_MAKE;
-int    V_STEPS_TO_MAKE_TEMP;
-int    V_NEW_CURRENT_POSITION;
-int    V_CORRECTED_POSITION;
-int    V_STEPS_TO_MAKE;
+long    V_STEPS_TO_MAKE_TEMP;
+long    V_NEW_CURRENT_POSITION;
+long    V_CORRECTED_POSITION;
+long    V_STEPS_TO_MAKE;
 
 /////////////////////////////////////////////
 /////////// DEW CONTROL /////////////////////
