@@ -113,7 +113,7 @@ Partial Class SettingsForm
         'NumericCurrentPosition
         '
         Me.NumericCurrentPosition.Location = New System.Drawing.Point(10, 165)
-        Me.NumericCurrentPosition.Maximum = New Decimal(New Integer() {10000, 0, 0, 0})
+        Me.NumericCurrentPosition.Maximum = New Decimal(New Integer() {1000000, 0, 0, 0})
         Me.NumericCurrentPosition.Name = "NumericCurrentPosition"
         Me.NumericCurrentPosition.Size = New System.Drawing.Size(120, 22)
         Me.NumericCurrentPosition.TabIndex = 28
@@ -121,7 +121,7 @@ Partial Class SettingsForm
         'NumericMaxSteps
         '
         Me.NumericMaxSteps.Location = New System.Drawing.Point(10, 66)
-        Me.NumericMaxSteps.Maximum = New Decimal(New Integer() {10000, 0, 0, 0})
+        Me.NumericMaxSteps.Maximum = New Decimal(New Integer() {1000000, 0, 0, 0})
         Me.NumericMaxSteps.Name = "NumericMaxSteps"
         Me.NumericMaxSteps.Size = New System.Drawing.Size(120, 22)
         Me.NumericMaxSteps.TabIndex = 27
@@ -239,7 +239,7 @@ Partial Class SettingsForm
         'NumericLarge
         '
         Me.NumericLarge.Location = New System.Drawing.Point(10, 168)
-        Me.NumericLarge.Maximum = New Decimal(New Integer() {10000, 0, 0, 0})
+        Me.NumericLarge.Maximum = New Decimal(New Integer() {1000000, 0, 0, 0})
         Me.NumericLarge.Minimum = New Decimal(New Integer() {1, 0, 0, 0})
         Me.NumericLarge.Name = "NumericLarge"
         Me.NumericLarge.Size = New System.Drawing.Size(120, 22)
@@ -249,7 +249,7 @@ Partial Class SettingsForm
         'NumericMedium
         '
         Me.NumericMedium.Location = New System.Drawing.Point(10, 123)
-        Me.NumericMedium.Maximum = New Decimal(New Integer() {10000, 0, 0, 0})
+        Me.NumericMedium.Maximum = New Decimal(New Integer() {1000000, 0, 0, 0})
         Me.NumericMedium.Minimum = New Decimal(New Integer() {1, 0, 0, 0})
         Me.NumericMedium.Name = "NumericMedium"
         Me.NumericMedium.Size = New System.Drawing.Size(120, 22)
@@ -259,7 +259,7 @@ Partial Class SettingsForm
         'NumericSmall
         '
         Me.NumericSmall.Location = New System.Drawing.Point(11, 72)
-        Me.NumericSmall.Maximum = New Decimal(New Integer() {10000, 0, 0, 0})
+        Me.NumericSmall.Maximum = New Decimal(New Integer() {1000000, 0, 0, 0})
         Me.NumericSmall.Minimum = New Decimal(New Integer() {1, 0, 0, 0})
         Me.NumericSmall.Name = "NumericSmall"
         Me.NumericSmall.Size = New System.Drawing.Size(120, 22)
