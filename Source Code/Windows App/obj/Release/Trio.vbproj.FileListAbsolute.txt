@@ -1,0 +1,13 @@
+C:\Users\willi\source\repos\TrioTMC2208\bin\Release\Trio.exe.config
+C:\Users\willi\source\repos\TrioTMC2208\bin\Release\Trio.exe
+C:\Users\willi\source\repos\TrioTMC2208\bin\Release\Trio.pdb
+C:\Users\willi\source\repos\TrioTMC2208\bin\Release\Trio.xml
+C:\Users\willi\source\repos\TrioTMC2208\obj\Release\Trio.vbprojAssemblyReference.cache
+C:\Users\willi\source\repos\TrioTMC2208\obj\Release\Trio.Form1.resources
+C:\Users\willi\source\repos\TrioTMC2208\obj\Release\Trio.Resources.resources
+C:\Users\willi\source\repos\TrioTMC2208\obj\Release\Trio.SettingsForm.resources
+C:\Users\willi\source\repos\TrioTMC2208\obj\Release\Trio.vbproj.GenerateResource.cache
+C:\Users\willi\source\repos\TrioTMC2208\obj\Release\Trio.vbproj.CoreCompileInputs.cache
+C:\Users\willi\source\repos\TrioTMC2208\obj\Release\Trio.exe
+C:\Users\willi\source\repos\TrioTMC2208\obj\Release\Trio.xml
+C:\Users\willi\source\repos\TrioTMC2208\obj\Release\Trio.pdb
