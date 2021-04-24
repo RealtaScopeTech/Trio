@@ -25,4 +25,4 @@ The installation process is the same for each driver.
 
 # ASCOM driver.
 
-1) Lol!
+1) Download the installer RealtaTrioASCOMSetup.exe, this is unsigned so Windows will probably think its a virus and warn you not to install it.
